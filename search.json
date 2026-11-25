@@ -1,0 +1,254 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am an applied mathematician at INSA Toulouse, where I develop fast and reliable reduced-order models for flows governed by partial differential equations, with a particular focus on flood simulation."
+  },
+  {
+    "objectID": "about.html#my-path",
+    "href": "about.html#my-path",
+    "title": "About",
+    "section": "My path",
+    "text": "My path\nI studied mathematical engineering at Sultan Moulay Slimane University in Morocco, then moved to France for a master’s degree in applied mathematics at the Université de Pau et des Pays de l’Adour, specializing in modeling and numerical simulation. My master’s internship at INSA Toulouse, on physics-informed machine learning for reduced-order models, set the direction of my research.\nI then did my PhD at INSA Toulouse, within the Institut de Mathématiques de Toulouse, on reduced-order models for the two-dimensional shallow-water equations, applied to real flood events. Since 2024, I have been a Teaching and Research Associate (ATER) at INSA Toulouse, where I continue this research and teach mathematics and numerical methods to engineering students."
+  },
+  {
+    "objectID": "about.html#phd",
+    "href": "about.html#phd",
+    "title": "About",
+    "section": "PhD",
+    "text": "PhD\n\nDefended · March 24, 2026\n\nReduction of the two-dimensional shallow-water equations using an error-aware POD–neural-network method: application to flood dynamics\nPhD in Applied Mathematics, University of Toulouse – INSA Toulouse, Institut de Mathématiques de Toulouse (IMT).\nSupervised by Jérôme Monnier (director), Robin Bouclier (co-director) and Pierre-André Garambois (co-supervisor, INRAE). Part of the ANR MUFFINS project.\nThesis committee\n\n\n\n\n\n\n\n\nMember\nInstitution\nRole\n\n\n\n\nAngelo Iollo\nUniversité de Bordeaux\nPresident\n\n\nSébastien Boyaval\nÉcole nationale des ponts et chaussées\nReviewer\n\n\nAntoine Rousseau\nInria Montpellier\nReviewer\n\n\nSilvia Valero\nUniversité de Toulouse\nExaminer\n\n\nJérôme Monnier\nINSA Toulouse\nDirector\n\n\nRobin Bouclier\nINSA Toulouse\nCo-director\n\n\nPierre-André Garambois\nINRAE Provence-Alpes-Côte d’Azur, Aix-en-Provence\nCo-supervisor\n\n\n\nThesis summary"
+  },
+  {
+    "objectID": "about.html#timeline",
+    "href": "about.html#timeline",
+    "title": "About",
+    "section": "Timeline",
+    "text": "Timeline\n\n\nSep 2024 – Sep 2026\nTeaching and Research Associate (ATER) · INSA Toulouse\nResearch on data-driven reduced-order models; teaching in mathematics and numerical analysis.\n\n\nNov 2021 – Mar 2026\nPhD in Applied Mathematics · INSA Toulouse, IMT\nReduction of the shallow water system by an error aware POD-neural network method: Application to floodplain dynamics\n\n\nMar 2021 – Sep 2021\nMaster’s research internship · INSA Toulouse\nPhysics-informed machine learning for reduced-order models of PDEs.\n\n\nSep 2019 – Sep 2021\nMaster’s in Applied Mathematics · Université de Pau et des Pays de l’Adour\nSpecialization in modeling and numerical simulation.\n\n\nSep 2014 – Jul 2018\nBachelor’s in Mathematical Engineering · Sultan Moulay Slimane University, Morocco"
+  },
+  {
+    "objectID": "about.html#languages",
+    "href": "about.html#languages",
+    "title": "About",
+    "section": "Languages",
+    "text": "Languages\nTamazight and Arabic (native) · French (fluent) · English (professional working proficiency). I teach in both French and English."
+  },
+  {
+    "objectID": "about.html#short-bio",
+    "href": "about.html#short-bio",
+    "title": "About",
+    "section": "Short bio",
+    "text": "Short bio\nFor conference programs and seminar announcements, feel free to use:\n\nMustapha Allabou is a Teaching and Research Associate in applied mathematics at INSA Toulouse and the Institut de Mathématiques de Toulouse. He received his PhD from INSA Toulouse in 2026. His research focuses on reduced-order modeling and scientific machine learning for PDE-governed systems, with applications to shallow-water flows and flood forecasting.\n\n\nWant the full details?\nDownload my CV Contact me"
+  },
+  {
+    "objectID": "index.html#mustapha-allabou",
+    "href": "index.html#mustapha-allabou",
+    "title": "Home",
+    "section": "Mustapha Allabou",
+    "text": "Mustapha Allabou\nPhD in Applied Mathematics\nFormer Teaching and Research Associate\nINSA Toulouse – IMT\nNumerical PDEs Model Reduction Scientific ML\n\n  iD"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Home",
+    "section": "Research interests",
+    "text": "Research interests\n\nReduced-order modeling\nNon-intrusive model reduction\nScientific machine learning\nPhysics-informed and hybrid physics–AI modeling\nNumerical PDEs\nShallow-water equations & flood modeling\n\nMore about my research →"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Home",
+    "section": "Education",
+    "text": "Education\nPhD in Applied Mathematics\nINSA Toulouse, 2021–2026\nMaster’s in Applied Mathematics\nUniversité de Pau et des Pays de l’Adour, 2019–2021\nFull biography →"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Home",
+    "section": "News",
+    "text": "News\n\n2026 Oral presentation on physics–AI model reduction for flood dynamics at the Congrès Eau & IA 2026, Grenoble.\n2025 Talk at the AI PhD Day, AI for Earth and Space Sciences seminar, Observatoire Midi-Pyrénées, Toulouse.\nSep 2024 Started as Teaching and Research Associate at INSA Toulouse."
+  },
+  {
+    "objectID": "index.html#selected-publication",
+    "href": "index.html#selected-publication",
+    "title": "Home",
+    "section": "Selected publication",
+    "text": "Selected publication\nM. Allabou, R. Bouclier, P.-A. Garambois & J. Monnier (2024).\nReduction of the shallow water system by an error-aware POD–neural network method: Application to floodplain dynamics. Computer Methods in Applied Mechanics and Engineering, 428, 117094.\nRead the article All publications"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I am always happy to discuss reduced-order modeling, scientific machine learning and numerical simulation of PDEs. I am open to research collaborations and postdoctoral opportunities, in hydrodynamics and in other fields where fast and reliable surrogate models are needed."
+  },
+  {
+    "objectID": "contact.html#profiles",
+    "href": "contact.html#profiles",
+    "title": "Contact",
+    "section": "Profiles",
+    "text": "Profiles\n\n LinkedIn\nProfessional profile\n GitHub\nResearch code\niD ORCID\n0000-0002-3303-3613"
+  },
+  {
+    "objectID": "contact.html#location",
+    "href": "contact.html#location",
+    "title": "Contact",
+    "section": "Location",
+    "text": "Location\nInstitut de Mathématiques de Toulouse\nINSA Toulouse, 135 avenue de Rangueil\n31077 Toulouse Cedex 4, France\n\nWant to know more before getting in touch?\nResearch Publications Code"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching & Supervision",
+    "section": "",
+    "text": "Since 2021, I have taught more than 500 hours at INSA Toulouse, from first-year mathematics to graduate courses in model reduction. I like to connect theory and computation: most of my courses pair mathematical concepts with hands-on Python sessions, so that students see the methods at work on concrete engineering problems."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching & Supervision",
+    "section": "Courses",
+    "text": "Courses\n\nUndergraduate\n\n\n\n Analysis and linear algebra\nCore mathematics for engineering students: the foundations used in all later courses.\n258 h · tutorials · since 2024\n\n\n Numerical analysis and ODEs\nNumerical methods and ordinary differential equations, with Python applications.\n63 h · tutorials and labs · since 2024\n\n\n Ordinary differential equations\nODEs for second-year mechanical engineering students, with Python applications.\n145 h · tutorials and labs · 2021–2024\n\n\n\nGraduate\n\n\n\n Modeling, finite elements and ROMs\nMathematical modeling, finite element methods and reduced-order modeling, with Python applications.\n37 h · since 2024\n\n\n Model reduction\nLectures and supervised practical sessions on model reduction for fourth-year GMM and fifth-year ModIA students.\n21 h · lectures and labs · 2021–2024"
+  },
+  {
+    "objectID": "teaching.html#student-supervision",
+    "href": "teaching.html#student-supervision",
+    "title": "Teaching & Supervision",
+    "section": "Student supervision",
+    "text": "Student supervision\n\nInternship · 3 months\n\nHydrodynamic model reduction for real-time simulation of floodplain dynamics\nSupervision of a fifth-year engineering student at INSA Toulouse (2022) during a three-month research internship on reduced-order models of the shallow-water equations, with the goal of simulating floodplain dynamics in real time.\nOriginal title: Réductions de modèle d’hydrodynamique pour simuler en temps réel la dynamique de plaines d’inondations.\n\n\n\nInternship · 4 months\n\nModel reduction of PDEs: hybrid POD–NN versus Gaussian process regression\nSupervision of a fourth-year engineering student at INSA Toulouse (2024) during a four-month research internship comparing two non-intrusive reduction approaches for PDE models: the hybrid POD–neural network method and Gaussian process regression.\nOriginal title: Comparaison de la réduction de modèles EDP par la méthode hybride POD-NN et la méthode des processus gaussiens."
+  },
+  {
+    "objectID": "teaching.html#positions",
+    "href": "teaching.html#positions",
+    "title": "Teaching & Supervision",
+    "section": "Positions",
+    "text": "Positions\n\nTeaching and Research Associate (ATER) — INSA Toulouse\n2024-2026 · 358 hours\n\n\nDoctoral Teaching Assistant — INSA Toulouse\n2021–2024 · 170 hours\n\n\n\nInterested in my teaching or in a course collaboration?\nContact me Research"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Many problems in science and engineering are described by partial differential equations (PDEs). Solving them accurately with high-fidelity numerical methods is often very costly, which becomes prohibitive when the same model must be run many times: for forecasting, optimization, control or uncertainty quantification (UQ). My research develops reduced-order models (ROMs) and surrogate models that make these computations fast while preserving accuracy and the underlying physics."
+  },
+  {
+    "objectID": "research.html#roms-in-a-nutshell",
+    "href": "research.html#roms-in-a-nutshell",
+    "title": "Research",
+    "section": "ROMs in a nutshell",
+    "text": "ROMs in a nutshell\nThe solutions of a PDE often live, in practice, close to a space of much lower dimension than the full numerical model. A ROM exploits this: it learns a small set of representative modes from high-fidelity solutions, then describes any new solution with only a few coefficients.\nThe computational effort is split into two stages:\n\nOffline, done once: high-fidelity simulations are computed and compressed into a reduced basis, for instance by Proper Orthogonal Decomposition (POD).\nOnline, done many times: for a new parameter or scenario, only the few reduced coefficients are computed, which is orders of magnitude cheaper.\n\n\n\n\n\n\n\nflowchart LR\n  A[\"Full-order model&lt;br/&gt;(PDE solver)\"] --&gt; B[\"Snapshots of&lt;br/&gt;the solution\"]\n  B --&gt; C[\"Reduced basis&lt;br/&gt;(e.g. POD)\"]\n  C --&gt; D[\"Intrusive:&lt;br/&gt;projection of the equations\"]\n  C --&gt; E[\"Non-intrusive:&lt;br/&gt;learning from data\"]\n  D --&gt; F[\"Fast online&lt;br/&gt;predictions\"]\n  E --&gt; F\n\n\n\n\n\n\n\nGeneral principle of a ROM: a reduced basis is extracted offline, then the reduced dynamics are obtained either by projecting the equations (intrusive) or by learning them from data (non-intrusive)."
+  },
+  {
+    "objectID": "research.html#two-families-of-approaches",
+    "href": "research.html#two-families-of-approaches",
+    "title": "Research",
+    "section": "Two families of approaches",
+    "text": "Two families of approaches\n\n\n Intrusive ROMs\nThe governing equations are projected onto the reduced basis (Galerkin-type methods). This requires access to the operators of the numerical solver, but keeps a direct link with the physics and allows error control.\nApplication: advection–diffusion problems.\n\n\n Non-intrusive ROMs\nThe reduced dynamics are learned directly from simulation data, for instance with neural networks, without modifying the solver. This makes the approach usable with existing, complex or industrial codes.\nApplication: 2D shallow-water equations and flood simulation."
+  },
+  {
+    "objectID": "research.html#application-to-floods",
+    "href": "research.html#application-to-floods",
+    "title": "Research",
+    "section": "Application to floods",
+    "text": "Application to floods\nThe two-dimensional shallow-water equations (SWE), also known as the Saint-Venant equations, describe free-surface flows in rivers and floodplains. They are central to flood forecasting, but their high-fidelity simulation is costly, and the solutions are hard to reduce: the dynamics are nonlinear and the wet/dry fronts move as the flood spreads.\nMy work builds non-intrusive ROMs for the 2D SWE that remain accurate on flood scenarios not seen during training, follow moving flood fronts, and respect physical quantities such as mass."
+  },
+  {
+    "objectID": "research.html#main-contributions",
+    "href": "research.html#main-contributions",
+    "title": "Research",
+    "section": "Main contributions",
+    "text": "Main contributions\nMy work has addressed several difficulties that make floods hard to reduce:\n\nAccuracy with few modes. By learning the POD projection error together with the reduced coefficients, the reduced model stays accurate with a small basis and compact neural networks, and was validated on real floods of the Aude river and the city of Abidjan.\nMoving flood fronts. Registering the moving wetted area onto a fixed domain, combined with a global water-volume constraint, captures advancing fronts with far fewer modes and much smaller errors.\nChanging flow regimes. Local ROMs, each adapted to a flow regime and selected online by a physics-guided classifier, improve accuracy when a single global model is not enough.\nSpeed for many-query studies. The resulting surrogates simulate whole flood events in seconds, making large ensembles and uncertainty quantification affordable.\n\nSee all publications"
+  },
+  {
+    "objectID": "research.html#projects-collaborations",
+    "href": "research.html#projects-collaborations",
+    "title": "Research",
+    "section": "Projects & collaborations",
+    "text": "Projects & collaborations\nMy PhD and my position as Teaching and Research Associate (2021–2026) were carried out at the Institut de Mathématiques de Toulouse (IMT), INSA Toulouse. During my PhD, I contributed to the ANR MUFFINS project, in collaboration with INRAE, on efficient simulation and model reduction for hydrodynamic applications.\nI have worked with Jérôme Monnier (INSA Toulouse, IMT), Robin Bouclier (INSA Toulouse, Institut Clément Ader) and Pierre-André Garambois (INRAE, Aix-en-Provence)."
+  },
+  {
+    "objectID": "research.html#looking-ahead",
+    "href": "research.html#looking-ahead",
+    "title": "Research",
+    "section": "Looking ahead",
+    "text": "Looking ahead\nI want to extend physics-guided, non-intrusive model reduction to broader computational fluid dynamics. Directions I am particularly interested in:\n\nStructure-preserving ROMs: reduced models that retain the key properties of the original equations, such as conservation laws, stability or energy balance.\nParametric and unsteady flows, with ROMs valid over wide ranges of physical parameters.\nUQ, where fast surrogates make large ensembles of simulations affordable.\nCoupling numerical solvers with learned surrogates, to combine the reliability of physics-based models with the speed of machine learning.\n\nThe common thread is ROMs that are fast, interpretable and reliable across flow regimes.\nBeyond hydrodynamics, I am open to applying ROMs to other fields where high-fidelity simulations are a bottleneck, such as weather and climate modeling, ocean and atmospheric flows, environmental engineering, energy systems, or industrial fluid mechanics, and I welcome collaborations in these areas.\n\nInterested in collaborating, or want to know more?\nPublications Code Contact me"
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "Code & Software",
+    "section": "",
+    "text": "My research relies on code: high-fidelity shallow-water solvers to generate data, and Python tools to build, train and validate reduced-order models (ROMs). This page gathers the code associated with my publications, as it becomes available."
+  },
+  {
+    "objectID": "code.html#research-code",
+    "href": "code.html#research-code",
+    "title": "Code & Software",
+    "section": "Research code",
+    "text": "Research code\nEach project below is linked to a publication. Code is released together with the corresponding article, with examples to reproduce the main results.\n\nCode available\n\nError-aware POD–NN reduction of the shallow-water equations\nNon-intrusive ROM combining POD with neural networks that learn both the reduced coefficients and the projection error. Offline/online workflow, from high-fidelity snapshots to fast predictions.\nPython PyTorch POD\n\nView the code Related article\n\n\n\nCode release planned\n\nWetting-front registration with global volume closure\nTransport-aware ROM for moving flood fronts: registration of the wetted area by dilation, POD–NN compression, and recovery of the front position from water-volume conservation. Includes large ensemble runs for probabilistic flood forecasting.\nPython POD–NN Registration\nRelated article\n\n\n\nCode release planned\n\nRegime-adaptive local ROMs\nLocal POD bases, neural-network regressors and a physics-guided classifier that selects the right local model online, with adaptive model selection.\nPython Local POD Classification\nRelated article"
+  },
+  {
+    "objectID": "code.html#tools-i-work-with",
+    "href": "code.html#tools-i-work-with",
+    "title": "Code & Software",
+    "section": "Tools I work with",
+    "text": "Tools I work with\n\n\n\nProgramming\nPython, C, C++, MATLAB\n\n\n\nMachine learning\nPyTorch, TensorFlow, Keras, scikit-learn\n\n\n\nScientific computing\nNumPy, SciPy, Matplotlib\n\n\n\nNumerical simulation\nDassFlow 2D, FEniCS, FreeFEM\n\n\n\nEnvironment\nLinux, Git, HPC clusters"
+  },
+  {
+    "objectID": "code.html#reproducibility",
+    "href": "code.html#reproducibility",
+    "title": "Code & Software",
+    "section": "Reproducibility",
+    "text": "Reproducibility\nI aim to make my results reproducible. Public repositories come with the source code, installation instructions, documented examples and reference results, and link back to the associated article.\n\nQuestions about the code, or interested in using it?\nContact me Research Publications"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "My work is published in computational mathematics and mechanics journals. Each entry below links to the article and to the related research. An up-to-date list is also available on ORCID."
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal articles",
+    "text": "Journal articles\n\nPublished · 2024\n\nReduction of the shallow water system by an error aware POD-neural network method: Application to floodplain dynamics\nM. Allabou, R. Bouclier, P.-A. Garambois and J. Monnier\nComputer Methods in Applied Mechanics and Engineering, 428, 117094, 2024.\n\nA non-intrusive reduced model for 2D flood simulation: POD extracts a few dominant flow patterns, and neural networks learn how they evolve, without opening the simulation code. By accounting for the projection error, the method stays accurate with few modes and small networks, even for convection-dominated flows. Applied to the flooding of the Aude river (southern France), it reproduces water levels and discharges of the full 2D model and opens the way to real-time simulation of large floodplains.\n\nRead the article Related research\n\n\nBibTeX\n\n@article{Allabou2024,\n  author  = {Allabou, Mustapha and Bouclier, Robin and Garambois, Pierre-Andr{\\'e} and Monnier, J{\\'e}r{\\^o}me},\n  title   = {Reduction of the shallow water system by an error aware {POD}-neural network method: Application to floodplain dynamics},\n  journal = {Computer Methods in Applied Mechanics and Engineering},\n  volume  = {428},\n  pages   = {117094},\n  year    = {2024},\n  doi     = {10.1016/j.cma.2024.117094}\n}"
+  },
+  {
+    "objectID": "publications.html#submitted-manuscripts",
+    "href": "publications.html#submitted-manuscripts",
+    "title": "Publications",
+    "section": "Submitted manuscripts",
+    "text": "Submitted manuscripts\n\nSubmitted · 2026\n\nRegistering wetting fronts by dilation: a non-intrusive shallow-water reduced-order model with global mass closure for flood forecasting\nM. Allabou\nSubmitted to Advances in Computational Mathematics.\n\nMoving flood fronts are hard to capture with a fixed reduced basis. This work maps the moving wetted area onto a fixed reference domain before compression, and recovers the front position from the conservation of the total water volume. The flow is then described with three to four times fewer modes, and water-depth errors are 12 to 20 times lower than with standard POD–NN. An ensemble of 10,000 flood events runs in about three minutes on a laptop, making probabilistic flood forecasting affordable.\n\nRelated research"
+  },
+  {
+    "objectID": "publications.html#manuscripts-in-preparation",
+    "href": "publications.html#manuscripts-in-preparation",
+    "title": "Publications",
+    "section": "Manuscripts in preparation",
+    "text": "Manuscripts in preparation\n\nIn preparation · 2026\n\nToward fast flood simulations via reduced-order 2D shallow water modeling\nM. Allabou, L. Pujol, R. Bouclier, P.-A. Garambois and J. Monnier\n\nA reduced model of urban flooding, trained on high-fidelity 2D shallow-water simulations over the city of Abidjan and tested on the real 2018 flood event. It reproduces water depths and velocities over the whole event with centimetre-level errors, and simulates the 8.3-hour flood in about 11 seconds, roughly 420 times faster than the full model, a step toward real-time flood forecasting and digital twins.\n\nRelated research\n\n\n\nIn preparation · 2026\n\nPhysics-guided regime-adaptive reduced-order modelling for shallow-water flows and flood uncertainty quantification\nM. Allabou\n\nInstead of a single global model, this framework uses several local reduced models, each adapted to a flow regime (wetting fronts, hydraulic jumps, overbank flow), and a physics-guided classifier that selects the right one during the simulation. On a 2D flood benchmark with 400 scenarios, it halves the error of a global ROM, and it shows that reliable ROMs for nonlinear flows depend as much on choosing the right local model as on the model itself.\n\nRelated research"
+  },
+  {
+    "objectID": "publications.html#phd-thesis",
+    "href": "publications.html#phd-thesis",
+    "title": "Publications",
+    "section": "PhD thesis",
+    "text": "PhD thesis\n\nDefended · March 2026\n\nReduced-order modeling of the two-dimensional shallow-water equations using an error-aware POD–neural-network method: application to flood dynamics\nM. Allabou\nPhD in Applied Mathematics, INSA Toulouse – Institut de Mathématiques de Toulouse, 2026.\n\nA non-intrusive reduced model for 2D shallow-water flows, built from POD and neural networks, with a key ingredient: learning the projection error, which keeps the model accurate with few modes and compact networks. The thesis also reduces the input signals (upstream hydrographs) with BiLSTM autoencoders, forming a complete reduction chain from inputs to outputs. Tested on two real 2018 floods, the Aude river (France) and the city of Abidjan (Côte d’Ivoire), the surrogate predicts floods on large meshes in a few seconds, and points to overflow-dominated urban flows as the next challenge.\n\nAbout my PhD"
+  },
+  {
+    "objectID": "publications.html#talks",
+    "href": "publications.html#talks",
+    "title": "Publications",
+    "section": "Talks",
+    "text": "Talks\n\nPhysics–AI model reduction for flood dynamics simulations\nCongrès Eau & IA 2026, Grenoble, France — oral presentation, 2026.\n\n\nReduction of nonlinear PDE models: Application to the shallow-water system and flood simulations\nAI PhD Day, AI for Earth and Space Sciences Seminar, Observatoire Midi-Pyrénées, Toulouse — seminar, 2025.\n\n\nHybrid AI-based reduction of the shallow-water system for floodplain simulations\n46th Congrès National d’Analyse Numérique (CANUM 2024), Île de Ré, France — minisymposium talk, 2024.\n\n\nModel reduction in a data-assimilation context: POD, POD–NN, and autoencoder approaches\nEDP Team Day, INSA Toulouse — seminar, 2024.\n\n\nReduced-order modeling of shallow-water equations using a machine-learning-based non-intrusive method\n10th GACM Colloquium on Computational Mechanics for Young Scientists from Academia and Industry, Vienna, Austria — minisymposium contribution, 2023."
+  },
+  {
+    "objectID": "publications.html#posters",
+    "href": "publications.html#posters",
+    "title": "Publications",
+    "section": "Posters",
+    "text": "Posters\n\nSurrogate direct and inverse models for river hydraulics with hybrid physics–neural network methods\nWith H. Boulenc, R. Bouclier, P.-A. Garambois and J. Monnier. ANITI Days 2024, Toulouse, France.\n\n\nReduction of the shallow-water system by an error-aware POD–neural network method: Application to floodplain dynamics\nWith R. Bouclier, P.-A. Garambois and J. Monnier. Summer School in Numerical Analysis on Reduced-Order Models, EDF Lab Paris-Saclay, France, 2024.\n\n\nInterested in this work or in a collaboration?\nResearch Code Contact me"
+  }
+]

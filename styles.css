@@ -1,0 +1,571 @@
+/* ===================================================== */
+/* ===== General                                    ===== */
+/* ===================================================== */
+
+/* Hide the automatic "Home" title */
+#title-block-header {
+  display: none;
+}
+
+/* ===================================================== */
+/* ===== Home page                                  ===== */
+/* ===================================================== */
+
+.academic-home {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 50px;
+  max-width: 1100px;
+  margin: 40px auto 0 auto;
+  align-items: start;
+}
+
+.profile-panel {
+  text-align: center;
+}
+
+/* Photo: round, 180 px, whatever the original image size */
+.profile-panel img.profile-photo,
+img.profile-photo {
+  width: 180px !important;
+  height: 180px !important;
+  max-width: 180px;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.profile-panel .profile-name {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin: 14px 0 4px 0;
+  font-size: 1.5rem;
+}
+
+.profile-panel .profile-role {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2f5f93;
+  margin-bottom: 10px;
+}
+
+.profile-panel .profile-affiliation {
+  display: block;
+  color: #5f6b7a;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Keywords as pills */
+.profile-panel .tag {
+  display: inline-block;
+  background: #eef3f9;
+  border: 1px solid #d8e2ee;
+  border-radius: 999px;
+  padding: 2px 10px;
+  margin: 3px 2px;
+  font-size: 0.8rem;
+  color: #26344a;
+  white-space: nowrap;
+}
+
+/* Social icons */
+.profile-social {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 14px 0 12px 0;
+  font-size: 1.3rem;
+}
+
+.profile-social a {
+  color: #26344a;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.profile-social a:hover {
+  color: #2f5f93;
+  transform: translateY(-2px);
+}
+
+.orcid-symbol {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background: #a6ce39;   /* official ORCID green */
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+/* Two columns: research interests / education */
+.home-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.home-columns h2 {
+  border-bottom: 2px solid #e3e7ee;
+  padding-bottom: 6px;
+}
+
+/* News */
+.home-news {
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.home-news ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.home-news li {
+  padding: 8px 0;
+  border-bottom: 1px dashed #e3e7ee;
+}
+
+.news-date {
+  display: inline-block;
+  min-width: 80px;
+  font-weight: 600;
+  color: #2f5f93;
+}
+
+/* Selected publication box */
+.home-publication {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background: #f7f9fc;
+  border-left: 4px solid #2f5f93;
+  border-radius: 8px;
+}
+
+.home-publication h2 {
+  margin-top: 0;
+  border-bottom: none;
+}
+
+/* ===================================================== */
+/* ===== Research page                              ===== */
+/* ===================================================== */
+
+.lead-text {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #3a4554;
+  margin-bottom: 30px;
+}
+
+.diagram-caption {
+  text-align: center;
+  color: #5f6b7a;
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+}
+
+/* Theme cards */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin: 20px 0 10px 0;
+}
+
+.research-card {
+  background: #f7f9fc;
+  border: 1px solid #e3e7ee;
+  border-radius: 10px;
+  padding: 18px 20px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.research-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.research-card h3 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  color: #26344a;
+}
+
+.research-card h3 .bi {
+  color: #2f5f93;
+  margin-right: 6px;
+}
+
+.research-card p {
+  margin-bottom: 0;
+}
+
+.research-card p + p {
+  margin-top: 10px;
+  font-style: italic;
+  color: #5f6b7a;
+}
+
+/* Project / publication cards */
+.project-card {
+  border: 1px solid #e3e7ee;
+  border-left: 4px solid #2f5f93;
+  border-radius: 8px;
+  padding: 18px 22px;
+  margin: 18px 0;
+}
+
+.project-card h3 {
+  margin-top: 6px;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.project-card .btn {
+  margin-right: 6px;
+}
+
+/* Status badges */
+.status {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+
+.status-published { background: #e3f1e6; color: #24683a; }
+.status-submitted { background: #e6eef8; color: #2f5f93; }
+.status-progress  { background: #fdf1dc; color: #8a5a00; }
+
+/* Call to action (end of pages) */
+.cta-box {
+  text-align: center;
+  background: #f7f9fc;
+  border-radius: 10px;
+  padding: 22px;
+  margin-top: 35px;
+}
+
+.cta-box .btn {
+  margin: 4px;
+}
+
+/* ===================================================== */
+/* ===== Publications page                          ===== */
+/* ===================================================== */
+
+/* Short plain-language summary under each publication */
+.pub-summary {
+  color: #5f6b7a;
+  margin: 8px 0 12px 0;
+}
+
+/* Collapsible BibTeX */
+.project-card details {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.project-card details summary {
+  cursor: pointer;
+  color: #2f5f93;
+}
+
+/* Talks and posters: light list with a left line */
+.pub-item {
+  padding: 10px 0 10px 16px;
+  border-left: 3px solid #e3e7ee;
+  margin-bottom: 12px;
+  transition: border-color 0.2s ease;
+}
+
+.pub-item:hover {
+  border-left-color: #2f5f93;
+}
+
+.pub-item p {
+  margin-bottom: 0;
+  color: #5f6b7a;
+}
+
+.pub-item strong {
+  color: #26344a;
+}
+
+/* ===================================================== */
+/* ===== Code page                                  ===== */
+/* ===================================================== */
+
+/* GitHub banner */
+.github-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: #f7f9fc;
+  border: 1px solid #e3e7ee;
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin: 10px 0 30px 0;
+}
+
+.github-card > p:first-child,
+.github-card > p:last-child {
+  margin: 0;
+}
+
+.github-card .bi-github {
+  font-size: 2.4rem;
+  color: #26344a;
+}
+
+.github-text {
+  flex: 1;
+}
+
+.github-text p {
+  margin: 0;
+  color: #5f6b7a;
+}
+
+.github-text strong {
+  color: #26344a;
+}
+
+/* Tags inside project cards */
+.project-card .tag {
+  display: inline-block;
+  background: #eef3f9;
+  border: 1px solid #d8e2ee;
+  border-radius: 999px;
+  padding: 1px 9px;
+  margin: 2px 2px 8px 0;
+  font-size: 0.78rem;
+  color: #26344a;
+}
+
+/* Tools grid */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 14px;
+  margin: 15px 0 10px 0;
+}
+
+.tool-card {
+  background: #f7f9fc;
+  border: 1px solid #e3e7ee;
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.tool-card .bi {
+  font-size: 1.5rem;
+  color: #2f5f93;
+}
+
+.tool-card p {
+  margin: 4px 0 0 0;
+  color: #5f6b7a;
+  font-size: 0.92rem;
+}
+
+.tool-card strong {
+  color: #26344a;
+}
+
+/* ===================================================== */
+/* ===== About page                                 ===== */
+/* ===================================================== */
+
+/* Vertical timeline */
+.timeline {
+  position: relative;
+  margin: 20px 0 10px 0;
+  padding-left: 26px;
+  border-left: 2px solid #d8e2ee;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+/* Dot on the line */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -33px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #2f5f93;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #d8e2ee;
+}
+
+.timeline-date {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #2f5f93;
+  margin-bottom: 2px;
+}
+
+.timeline-item p {
+  margin-bottom: 0;
+  color: #5f6b7a;
+}
+
+.timeline-item strong {
+  color: #26344a;
+}
+
+/* Short bio box (ready to copy) */
+.short-bio {
+  background: #f7f9fc;
+  border: 1px dashed #c9d5e3;
+  border-radius: 8px;
+  padding: 16px 20px;
+  font-style: italic;
+  color: #3a4554;
+}
+
+.short-bio p {
+  margin-bottom: 0;
+}
+
+/* ===================================================== */
+/* ===== Contact page                               ===== */
+/* ===================================================== */
+
+/* Main e-mail banner */
+.contact-main {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: #f7f9fc;
+  border: 1px solid #e3e7ee;
+  border-left: 4px solid #2f5f93;
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin: 10px 0 30px 0;
+}
+
+.contact-main > p {
+  margin: 0;
+}
+
+.contact-main .bi-envelope {
+  font-size: 2.2rem;
+  color: #2f5f93;
+}
+
+.contact-main-text {
+  flex: 1;
+}
+
+.contact-main-text p {
+  margin: 0;
+  color: #5f6b7a;
+}
+
+.contact-main-text strong {
+  color: #26344a;
+}
+
+/* Profile links as cards */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin: 15px 0;
+}
+
+.contact-grid p {
+  margin: 0;
+}
+
+.contact-link {
+  display: block;
+  background: #f7f9fc;
+  border: 1px solid #e3e7ee;
+  border-radius: 10px;
+  padding: 16px 18px;
+  color: #5f6b7a !important;
+  text-decoration: none !important;
+  font-size: 0.9rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.contact-link:hover {
+  border-color: #2f5f93;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.contact-link strong {
+  color: #26344a;
+  font-size: 1rem;
+}
+
+.contact-link .bi,
+.contact-link .orcid-symbol {
+  margin-right: 6px;
+}
+
+.contact-link .bi {
+  font-size: 1.2rem;
+  color: #2f5f93;
+  vertical-align: -2px;
+}
+
+
+/* ===================================================== */
+/* ===== Mobile (keep at the very end of the file)  ===== */
+/* ===================================================== */
+
+@media (max-width: 780px) {
+  .academic-home,
+  .home-columns,
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .academic-home {
+    gap: 20px;
+    margin-top: 25px;
+  }
+
+  .news-date {
+    display: block;
+  }
+
+  .home-publication {
+    padding: 20px;
+  }
+
+  .github-card,
+  .contact-main {
+    flex-direction: column;
+    text-align: center;
+  }
+}
