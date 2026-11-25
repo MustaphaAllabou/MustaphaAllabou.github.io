@@ -1,0 +1,130 @@
+---
+title: "Code & Software"
+subtitle: "Research code for reduced-order modeling and scientific machine learning"
+toc: true
+toc-title: "On this page"
+---
+
+::: {.lead-text}
+My research relies on code: high-fidelity shallow-water solvers to generate
+data, and Python tools to build, train and validate reduced-order models
+(ROMs). This page gathers the code associated with my publications, as it
+becomes available.
+:::
+
+::: {.github-card}
+<i class="bi bi-github"></i>
+
+::: {.github-text}
+**GitHub**\
+Public repositories, numerical experiments and scientific programming
+projects.
+:::
+
+[Visit my GitHub](https://github.com/MustaphaAllabou){.btn .btn-primary .btn-sm}
+:::
+
+## Research code
+
+Each project below is linked to a publication. Code is released together with
+the corresponding article, with examples to reproduce the main results.
+
+::: {.project-card}
+[Code available]{.status .status-published}
+
+### Error-aware POD–NN reduction of the shallow-water equations
+
+Non-intrusive ROM combining POD with neural networks that learn both the
+reduced coefficients and the projection error. Offline/online workflow, from
+high-fidelity snapshots to fast predictions.
+
+[Python]{.tag} [PyTorch]{.tag} [POD]{.tag}
+
+<!-- Replace the link below with the address of the repository,
+     e.g. https://github.com/MustaphaAllabou/name-of-the-repository -->
+[View the code](https://github.com/MustaphaAllabou?tab=repositories){.btn .btn-primary .btn-sm}
+[Related article](publications.qmd#journal-articles){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.project-card}
+[Code release planned]{.status .status-progress}
+
+### Wetting-front registration with global volume closure
+
+Transport-aware ROM for moving flood fronts: registration of the wetted area
+by dilation, POD–NN compression, and recovery of the front position from
+water-volume conservation. Includes large ensemble runs for probabilistic
+flood forecasting.
+
+[Python]{.tag} [POD–NN]{.tag} [Registration]{.tag}
+
+[Related article](publications.qmd#submitted-manuscripts){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.project-card}
+[Code release planned]{.status .status-progress}
+
+### Regime-adaptive local ROMs
+
+Local POD bases, neural-network regressors and a physics-guided classifier
+that selects the right local model online, with adaptive model selection.
+
+[Python]{.tag} [Local POD]{.tag} [Classification]{.tag}
+
+[Related article](publications.qmd#manuscripts-in-preparation){.btn .btn-outline-secondary .btn-sm}
+:::
+
+## Tools I work with
+
+::: {.tools-grid}
+
+::: {.tool-card}
+<i class="bi bi-code-slash"></i>
+
+**Programming**\
+Python, C, C++, MATLAB
+:::
+
+::: {.tool-card}
+<i class="bi bi-cpu"></i>
+
+**Machine learning**\
+PyTorch, TensorFlow, Keras, scikit-learn
+:::
+
+::: {.tool-card}
+<i class="bi bi-calculator"></i>
+
+**Scientific computing**\
+NumPy, SciPy, Matplotlib
+:::
+
+::: {.tool-card}
+<i class="bi bi-water"></i>
+
+**Numerical simulation**\
+DassFlow 2D, FEniCS, FreeFEM
+:::
+
+::: {.tool-card}
+<i class="bi bi-terminal"></i>
+
+**Environment**\
+Linux, Git, HPC clusters
+:::
+
+:::
+
+## Reproducibility
+
+I aim to make my results reproducible. Public repositories come with the
+source code, installation instructions, documented examples and reference
+results, and link back to the associated article.
+
+::: {.cta-box}
+Questions about the code, or interested in using it?
+
+[Contact me](contact.qmd){.btn .btn-primary .btn-sm}
+[Research](research.qmd){.btn .btn-outline-primary .btn-sm}
+[Publications](publications.qmd){.btn .btn-outline-secondary .btn-sm}
+:::

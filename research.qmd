@@ -1,0 +1,148 @@
+---
+title: "Research"
+subtitle: "Fast, reliable and physically consistent surrogate models for flows governed by PDEs"
+toc: true
+toc-title: "On this page"
+---
+
+::: {.lead-text}
+Many problems in science and engineering are described by partial
+differential equations (PDEs). Solving them accurately with high-fidelity
+numerical methods is often very costly, which becomes prohibitive when the
+same model must be run many times: for forecasting, optimization, control or
+uncertainty quantification (UQ). My research develops reduced-order models
+(ROMs) and surrogate models that make these computations fast while
+preserving accuracy and the underlying physics.
+:::
+
+## ROMs in a nutshell
+
+The solutions of a PDE often live, in practice, close to a space of much lower
+dimension than the full numerical model. A ROM exploits this: it learns a small
+set of representative modes from high-fidelity solutions, then describes any
+new solution with only a few coefficients.
+
+The computational effort is split into two stages:
+
+- **Offline**, done once: high-fidelity simulations are computed and
+  compressed into a reduced basis, for instance by Proper Orthogonal
+  Decomposition (POD).
+- **Online**, done many times: for a new parameter or scenario, only the few
+  reduced coefficients are computed, which is orders of magnitude cheaper.
+
+```{mermaid}
+%%| fig-align: center
+flowchart LR
+  A["Full-order model<br/>(PDE solver)"] --> B["Snapshots of<br/>the solution"]
+  B --> C["Reduced basis<br/>(e.g. POD)"]
+  C --> D["Intrusive:<br/>projection of the equations"]
+  C --> E["Non-intrusive:<br/>learning from data"]
+  D --> F["Fast online<br/>predictions"]
+  E --> F
+```
+
+::: {.diagram-caption}
+General principle of a ROM: a reduced basis is extracted offline, then the
+reduced dynamics are obtained either by projecting the equations (intrusive)
+or by learning them from data (non-intrusive).
+:::
+
+## Two families of approaches
+
+::: {.research-grid}
+
+::: {.research-card}
+### <i class="bi bi-diagram-3"></i> Intrusive ROMs
+The governing equations are projected onto the reduced basis (Galerkin-type
+methods). This requires access to the operators of the numerical solver, but
+keeps a direct link with the physics and allows error control.
+
+Application: advection–diffusion problems.
+:::
+
+::: {.research-card}
+### <i class="bi bi-cpu"></i> Non-intrusive ROMs
+The reduced dynamics are learned directly from simulation data, for instance
+with neural networks, without modifying the solver. This makes the approach
+usable with existing, complex or industrial codes.
+
+Application: 2D shallow-water equations and flood simulation.
+:::
+
+:::
+
+## Application to floods
+
+The two-dimensional shallow-water equations (SWE), also known as the
+Saint-Venant equations, describe free-surface flows in rivers and floodplains.
+They are central to flood forecasting, but their high-fidelity simulation is
+costly, and the solutions are hard to reduce: the dynamics are nonlinear and
+the wet/dry fronts move as the flood spreads.
+
+My work builds non-intrusive ROMs for the 2D SWE that remain accurate on flood
+scenarios not seen during training, follow moving flood fronts, and respect
+physical quantities such as mass.
+
+## Main contributions
+
+My work has addressed several difficulties that make floods hard to reduce:
+
+- **Accuracy with few modes.** By learning the POD projection error together
+  with the reduced coefficients, the reduced model stays accurate with a small
+  basis and compact neural networks, and was validated on real floods of the
+  Aude river and the city of Abidjan.
+- **Moving flood fronts.** Registering the moving wetted area onto a fixed
+  domain, combined with a global water-volume constraint, captures advancing
+  fronts with far fewer modes and much smaller errors.
+- **Changing flow regimes.** Local ROMs, each adapted to a flow regime and
+  selected online by a physics-guided classifier, improve accuracy when a
+  single global model is not enough.
+- **Speed for many-query studies.** The resulting surrogates simulate whole
+  flood events in seconds, making large ensembles and uncertainty
+  quantification affordable.
+
+[See all publications](publications.qmd){.btn .btn-outline-primary .btn-sm}
+
+## Projects & collaborations
+
+My PhD and my position as Teaching and Research Associate (2021–2026) were
+carried out at the Institut de Mathématiques de Toulouse (IMT), INSA Toulouse.
+During my PhD, I contributed to the ANR MUFFINS project, in
+collaboration with INRAE, on efficient simulation and model reduction for
+hydrodynamic applications.
+
+I have worked with Jérôme Monnier (INSA Toulouse, IMT), Robin Bouclier (INSA
+Toulouse, Institut Clément Ader) and Pierre-André Garambois (INRAE,
+Aix-en-Provence).
+
+## Looking ahead
+
+I want to extend physics-guided, non-intrusive model reduction to broader
+computational fluid dynamics. Directions I am particularly interested in:
+
+- **Structure-preserving ROMs**: reduced models that retain the key
+  properties of the original equations, such as conservation laws,
+  stability or energy balance.
+- **Parametric and unsteady flows**, with ROMs valid over wide ranges of
+  physical parameters.
+- **UQ**, where fast surrogates make large ensembles of simulations
+  affordable.
+- **Coupling numerical solvers with learned surrogates**, to combine the
+  reliability of physics-based models with the speed of machine learning.
+
+The common thread is ROMs that are fast, interpretable and reliable across
+flow regimes.
+
+Beyond hydrodynamics, I am open to applying ROMs to other fields where
+high-fidelity simulations are a bottleneck, such as weather and climate
+modeling, ocean and atmospheric flows, environmental engineering, energy
+systems, or industrial fluid mechanics, and I welcome collaborations in these
+areas.
+
+::: {.cta-box}
+Interested in collaborating, or want to know more?
+
+[Publications](publications.qmd){.btn .btn-primary .btn-sm}
+[Code](code.qmd){.btn .btn-outline-primary .btn-sm}
+[Contact me](contact.qmd){.btn .btn-outline-secondary .btn-sm}
+:::

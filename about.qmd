@@ -1,0 +1,121 @@
+---
+title: "About"
+subtitle: "Applied mathematician working on reduced-order modeling and scientific machine learning"
+toc: true
+toc-title: "On this page"
+---
+
+::: {.lead-text}
+I am an applied mathematician at INSA Toulouse, where I develop fast and
+reliable reduced-order models for flows governed by partial differential
+equations, with a particular focus on flood simulation.
+:::
+
+## My path
+
+I studied mathematical engineering at Sultan Moulay Slimane University in
+Morocco, then moved to France for a master's degree in applied mathematics at
+the Université de Pau et des Pays de l'Adour, specializing in modeling and
+numerical simulation. My master's internship at INSA Toulouse, on
+physics-informed machine learning for reduced-order models, set the
+direction of my research.
+
+I then did my PhD at INSA Toulouse, within the Institut de Mathématiques de
+Toulouse, on reduced-order models for the two-dimensional shallow-water
+equations, applied to real flood events. Since 2024, I have been a Teaching
+and Research Associate (ATER) at INSA Toulouse, where I continue this
+research and teach mathematics and numerical methods to engineering students.
+
+## PhD
+
+::: {.project-card}
+[Defended · March 24, 2026]{.status .status-published}
+
+### Reduction of the two-dimensional shallow-water equations using an error-aware POD–neural-network method: application to flood dynamics
+
+PhD in Applied Mathematics, University of Toulouse – INSA Toulouse,
+Institut de Mathématiques de Toulouse (IMT).
+
+Supervised by Jérôme Monnier (director), Robin Bouclier (co-director) and
+Pierre-André Garambois (co-supervisor, INRAE). Part of the ANR MUFFINS
+project.
+
+**Thesis committee**
+
+| Member | Institution | Role |
+|:--|:--|:--|
+| Angelo Iollo | Université de Bordeaux | President |
+| Sébastien Boyaval | École nationale des ponts et chaussées | Reviewer |
+| Antoine Rousseau | Inria Montpellier | Reviewer |
+| Silvia Valero | Université de Toulouse | Examiner |
+| Jérôme Monnier | INSA Toulouse | Director |
+| Robin Bouclier | INSA Toulouse | Co-director |
+| Pierre-André Garambois | INRAE Provence-Alpes-Côte d'Azur, Aix-en-Provence | Co-supervisor |
+
+[Thesis summary](publications.qmd#phd-thesis){.btn .btn-outline-secondary .btn-sm}
+:::
+
+## Timeline
+
+::: {.timeline}
+
+::: {.timeline-item}
+[Sep 2024 – Sep 2026]{.timeline-date}
+
+**Teaching and Research Associate (ATER)** · INSA Toulouse\
+Research on data-driven reduced-order models; teaching in mathematics and
+numerical analysis.
+:::
+
+::: {.timeline-item}
+[Nov 2021 – Mar 2026]{.timeline-date}
+
+**PhD in Applied Mathematics** · INSA Toulouse, IMT\
+Reduction of the shallow water system by an error aware POD-neural network method: Application to floodplain dynamics
+:::
+
+::: {.timeline-item}
+[Mar 2021 – Sep 2021]{.timeline-date}
+
+**Master's research internship** · INSA Toulouse\
+Physics-informed machine learning for reduced-order models of PDEs.
+:::
+
+::: {.timeline-item}
+[Sep 2019 – Sep 2021]{.timeline-date}
+
+**Master's in Applied Mathematics** · Université de Pau et des Pays de l'Adour\
+Specialization in modeling and numerical simulation.
+:::
+
+::: {.timeline-item}
+[Sep 2014 – Jul 2018]{.timeline-date}
+
+**Bachelor's in Mathematical Engineering** · Sultan Moulay Slimane University, Morocco
+:::
+
+:::
+
+## Languages
+
+Tamazight and Arabic (native) · French (fluent) · English (professional
+working proficiency). I teach in both French and English.
+
+## Short bio
+
+For conference programs and seminar announcements, feel free to use:
+
+::: {.short-bio}
+Mustapha Allabou is a Teaching and Research Associate in applied mathematics
+at INSA Toulouse and the Institut de Mathématiques de Toulouse. He received
+his PhD from INSA Toulouse in 2026. His research focuses on reduced-order
+modeling and scientific machine learning for PDE-governed systems, with
+applications to shallow-water flows and flood forecasting.
+:::
+
+::: {.cta-box}
+Want the full details?
+
+[Download my CV](files/CV_Mustapha_Allabou.pdf){.btn .btn-primary .btn-sm}
+[Contact me](contact.qmd){.btn .btn-outline-secondary .btn-sm}
+:::

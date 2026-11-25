@@ -1,0 +1,60 @@
+---
+title: "Contact"
+subtitle: "Collaborations, research questions and postdoctoral opportunities"
+toc: false
+---
+
+::: {.lead-text}
+I am always happy to discuss reduced-order modeling, scientific machine
+learning and numerical simulation of PDEs. I am open to research
+collaborations and postdoctoral opportunities, in hydrodynamics and in other
+fields where fast and reliable surrogate models are needed.
+:::
+
+::: {.contact-main}
+<i class="bi bi-envelope"></i>
+
+::: {.contact-main-text}
+**Email**\
+The best way to reach me. I usually reply within a few days.
+:::
+
+[allaboumustapha96@gmail.com](mailto:allaboumustapha96@gmail.com){.btn .btn-primary .btn-sm}
+:::
+
+## Profiles
+
+::: {.contact-grid}
+
+[<i class="bi bi-linkedin"></i> **LinkedIn**\
+Professional profile](https://www.linkedin.com/in/mustapha-allabou-786b79201/){.contact-link}
+
+[<i class="bi bi-github"></i> **GitHub**\
+Research code](https://github.com/MustaphaAllabou){.contact-link}
+
+[<span class="orcid-symbol">iD</span> **ORCID**\
+0000-0002-3303-3613](https://orcid.org/0000-0002-3303-3613){.contact-link}
+
+<!-- Add when available:
+[<i class="bi bi-mortarboard"></i> **Google Scholar**\
+Citations](https://scholar.google.com/citations?user=XXXX){.contact-link}
+
+[<i class="bi bi-archive"></i> **HAL**\
+Open-access papers](https://cv.hal.science/XXXX){.contact-link}
+-->
+
+:::
+
+## Location
+
+Institut de Mathématiques de Toulouse\
+INSA Toulouse, 135 avenue de Rangueil\
+31077 Toulouse Cedex 4, France
+
+::: {.cta-box}
+Want to know more before getting in touch?
+
+[Research](research.qmd){.btn .btn-outline-primary .btn-sm}
+[Publications](publications.qmd){.btn .btn-outline-primary .btn-sm}
+[Code](code.qmd){.btn .btn-outline-secondary .btn-sm}
+:::

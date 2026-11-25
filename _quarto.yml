@@ -1,0 +1,45 @@
+project:
+  type: website
+  resources:
+    - files/
+
+website:
+  title: "Mustapha Allabou"
+  search: true
+
+  navbar:
+    background: white
+    foreground: "#26344a"
+
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: code.qmd
+        text: Code
+      - href: teaching.qmd
+        text: Teaching & Supervision
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact
+
+    right:
+      - href: files/CV_Mustapha_Allabou.pdf
+        text: CV
+        icon: file-earmark-pdf
+
+  page-footer:
+    center: "© 2026 Mustapha Allabou"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    anchor-sections: false
+
+lang: en

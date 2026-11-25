@@ -1,0 +1,205 @@
+
+
+---
+title: "Publications"
+subtitle: "Articles, manuscripts, thesis and scientific communications"
+toc: true
+toc-title: "On this page"
+---
+
+::: {.lead-text}
+My work is published in computational mathematics and mechanics journals.
+Each entry below links to the article and to the related research. An
+up-to-date list is also available on
+[ORCID](https://orcid.org/0000-0002-3303-3613).
+:::
+
+<!-- When you have a Google Scholar profile, add it to the sentence above:
+[Google Scholar](https://scholar.google.com/citations?user=XXXX)
+-->
+
+## Journal articles
+
+::: {.project-card}
+[Published · 2024]{.status .status-published}
+
+### Reduction of the shallow water system by an error aware POD-neural network method: Application to floodplain dynamics
+
+**M. Allabou**, R. Bouclier, P.-A. Garambois and J. Monnier\
+*Computer Methods in Applied Mechanics and Engineering*, 428, 117094, 2024.
+
+::: {.pub-summary}
+A non-intrusive reduced model for 2D flood simulation: POD extracts a few
+dominant flow patterns, and neural networks learn how they evolve, without
+opening the simulation code. By accounting for the projection error, the
+method stays accurate with few modes and small networks, even for
+convection-dominated flows. Applied to the flooding of the Aude river
+(southern France), it reproduces water levels and discharges of the full 2D
+model and opens the way to real-time simulation of large floodplains.
+:::
+
+[Read the article](https://doi.org/10.1016/j.cma.2024.117094){.btn .btn-outline-primary .btn-sm}
+[Related research](research.qmd#main-contributions){.btn .btn-outline-secondary .btn-sm}
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@article{Allabou2024,
+  author  = {Allabou, Mustapha and Bouclier, Robin and Garambois, Pierre-Andr{\'e} and Monnier, J{\'e}r{\^o}me},
+  title   = {Reduction of the shallow water system by an error aware {POD}-neural network method: Application to floodplain dynamics},
+  journal = {Computer Methods in Applied Mechanics and Engineering},
+  volume  = {428},
+  pages   = {117094},
+  year    = {2024},
+  doi     = {10.1016/j.cma.2024.117094}
+}
+```
+
+</details>
+:::
+
+## Submitted manuscripts
+
+::: {.project-card}
+[Submitted · 2026]{.status .status-submitted}
+
+### Registering wetting fronts by dilation: a non-intrusive shallow-water reduced-order model with global mass closure for flood forecasting
+
+**M. Allabou**\
+Submitted to *Advances in Computational Mathematics*.
+
+::: {.pub-summary}
+Moving flood fronts are hard to capture with a fixed reduced basis. This
+work maps the moving wetted area onto a fixed reference domain before
+compression, and recovers the front position from the conservation of the
+total water volume. The flow is then described with three to four times
+fewer modes, and water-depth errors are 12 to 20 times lower than with
+standard POD–NN. An ensemble of 10,000 flood events runs in about three
+minutes on a laptop, making probabilistic flood forecasting affordable.
+:::
+
+[Related research](research.qmd#main-contributions){.btn .btn-outline-secondary .btn-sm}
+:::
+
+## Manuscripts in preparation
+
+::: {.project-card}
+[In preparation · 2026]{.status .status-progress}
+
+### Toward fast flood simulations via reduced-order 2D shallow water modeling
+
+**M. Allabou**, L. Pujol, R. Bouclier, P.-A. Garambois and J. Monnier
+
+::: {.pub-summary}
+A reduced model of urban flooding, trained on high-fidelity 2D shallow-water
+simulations over the city of Abidjan and tested on the real 2018 flood event.
+It reproduces water depths and velocities over the whole event with
+centimetre-level errors, and simulates the 8.3-hour flood in about 11 seconds,
+roughly 420 times faster than the full model, a step toward real-time flood
+forecasting and digital twins.
+:::
+
+[Related research](research.qmd#main-contributions){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.project-card}
+[In preparation · 2026]{.status .status-progress}
+
+### Physics-guided regime-adaptive reduced-order modelling for shallow-water flows and flood uncertainty quantification
+
+**M. Allabou**
+
+::: {.pub-summary}
+Instead of a single global model, this framework uses several local reduced
+models, each adapted to a flow regime (wetting fronts, hydraulic jumps,
+overbank flow), and a physics-guided classifier that selects the right one
+during the simulation. On a 2D flood benchmark with 400 scenarios, it halves
+the error of a global ROM, and it shows that reliable ROMs for nonlinear
+flows depend as much on choosing the right local model as on the model itself.
+:::
+
+[Related research](research.qmd#main-contributions){.btn .btn-outline-secondary .btn-sm}
+:::
+
+## PhD thesis
+
+::: {.project-card}
+[Defended · March 2026]{.status .status-published}
+
+### Reduced-order modeling of the two-dimensional shallow-water equations using an error-aware POD–neural-network method: application to flood dynamics
+
+**M. Allabou**\
+PhD in Applied Mathematics, INSA Toulouse – Institut de Mathématiques de
+Toulouse, 2026.
+
+::: {.pub-summary}
+A non-intrusive reduced model for 2D shallow-water flows, built from POD and
+neural networks, with a key ingredient: learning the projection error, which
+keeps the model accurate with few modes and compact networks. The thesis also
+reduces the input signals (upstream hydrographs) with BiLSTM autoencoders,
+forming a complete reduction chain from inputs to outputs. Tested on two real
+2018 floods, the Aude river (France) and the city of Abidjan (Côte d'Ivoire),
+the surrogate predicts floods on large meshes in a few seconds, and points to
+overflow-dominated urban flows as the next challenge.
+:::
+
+[About my PhD](about.qmd){.btn .btn-outline-secondary .btn-sm}
+
+<!-- When available, add the link (HAL, theses.fr...):
+[Read the thesis](https://...){.btn .btn-outline-primary .btn-sm}
+-->
+:::
+
+## Talks
+
+::: {.pub-item}
+**Physics–AI model reduction for flood dynamics simulations**\
+Congrès Eau & IA 2026, Grenoble, France — oral presentation, 2026.
+:::
+
+::: {.pub-item}
+**Reduction of nonlinear PDE models: Application to the shallow-water system and flood simulations**\
+AI PhD Day, AI for Earth and Space Sciences Seminar, Observatoire
+Midi-Pyrénées, Toulouse — seminar, 2025.
+:::
+
+::: {.pub-item}
+**Hybrid AI-based reduction of the shallow-water system for floodplain simulations**\
+46th Congrès National d'Analyse Numérique (CANUM 2024), Île de Ré, France —
+minisymposium talk, 2024.
+:::
+
+::: {.pub-item}
+**Model reduction in a data-assimilation context: POD, POD–NN, and autoencoder approaches**\
+EDP Team Day, INSA Toulouse — seminar, 2024.
+:::
+
+::: {.pub-item}
+**Reduced-order modeling of shallow-water equations using a machine-learning-based non-intrusive method**\
+10th GACM Colloquium on Computational Mechanics for Young Scientists from
+Academia and Industry, Vienna, Austria — minisymposium contribution, 2023.
+:::
+
+## Posters
+
+::: {.pub-item}
+**Surrogate direct and inverse models for river hydraulics with hybrid physics–neural network methods**\
+With H. Boulenc, R. Bouclier, P.-A. Garambois and J. Monnier.
+ANITI Days 2024, Toulouse, France.
+:::
+
+::: {.pub-item}
+**Reduction of the shallow-water system by an error-aware POD–neural network method: Application to floodplain dynamics**\
+With R. Bouclier, P.-A. Garambois and J. Monnier.
+Summer School in Numerical Analysis on Reduced-Order Models, EDF Lab
+Paris-Saclay, France, 2024.
+:::
+
+::: {.cta-box}
+Interested in this work or in a collaboration?
+
+[Research](research.qmd){.btn .btn-primary .btn-sm}
+[Code](code.qmd){.btn .btn-outline-primary .btn-sm}
+[Contact me](contact.qmd){.btn .btn-outline-secondary .btn-sm}
+:::

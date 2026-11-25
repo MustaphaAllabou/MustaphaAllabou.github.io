@@ -1,0 +1,130 @@
+
+---
+title: "Teaching & Supervision"
+subtitle: "Mathematics and numerical methods for engineering students at INSA Toulouse"
+toc: true
+toc-title: "On this page"
+---
+
+::: {.lead-text}
+Since 2021, I have taught more than 500 hours at INSA Toulouse, from
+first-year mathematics to graduate courses in model reduction. I like to
+connect theory and computation: most of my courses pair mathematical
+concepts with hands-on Python sessions, so that students see the methods at
+work on concrete engineering problems.
+:::
+
+## Courses
+
+### Undergraduate
+
+::: {.research-grid}
+
+::: {.research-card}
+### <i class="bi bi-infinity"></i> Analysis and linear algebra
+Core mathematics for engineering students: the foundations used in all
+later courses.
+
+258 h · tutorials · since 2024
+:::
+
+::: {.research-card}
+### <i class="bi bi-graph-up"></i> Numerical analysis and ODEs
+Numerical methods and ordinary differential equations, with Python
+applications.
+
+63 h · tutorials and labs · since 2024
+:::
+
+::: {.research-card}
+### <i class="bi bi-bezier2"></i> Ordinary differential equations
+ODEs for second-year mechanical engineering students, with Python
+applications.
+
+145 h · tutorials and labs · 2021–2024
+:::
+
+:::
+
+### Graduate
+
+::: {.research-grid}
+
+::: {.research-card}
+### <i class="bi bi-grid-3x3"></i> Modeling, finite elements and ROMs
+Mathematical modeling, finite element methods and reduced-order modeling,
+with Python applications.
+
+37 h · since 2024
+:::
+
+::: {.research-card}
+### <i class="bi bi-layers"></i> Model reduction
+Lectures and supervised practical sessions on model reduction for
+fourth-year GMM and fifth-year ModIA students.
+
+21 h · lectures and labs · 2021–2024
+:::
+
+:::
+
+## Student supervision
+
+::: {.project-card}
+[Internship · 3 months]{.status .status-submitted}
+
+### Hydrodynamic model reduction for real-time simulation of floodplain dynamics
+
+Supervision of a fifth-year engineering student at INSA Toulouse (2022)
+during a three-month research internship on reduced-order models of the
+shallow-water equations, with the goal of simulating floodplain dynamics in
+real time.
+
+*Original title: Réductions de modèle d'hydrodynamique pour simuler en temps
+réel la dynamique de plaines d'inondations.*
+:::
+
+::: {.project-card}
+[Internship · 4 months]{.status .status-submitted}
+
+### Model reduction of PDEs: hybrid POD–NN versus Gaussian process regression
+
+Supervision of a fourth-year engineering student at INSA Toulouse (2024)
+during a four-month research internship comparing two non-intrusive
+reduction approaches for PDE models: the hybrid POD–neural network method
+and Gaussian process regression.
+
+*Original title: Comparaison de la réduction de modèles EDP par la méthode
+hybride POD-NN et la méthode des processus gaussiens.*
+:::
+
+## Positions
+
+::: {.pub-item}
+**Teaching and Research Associate (ATER)** — INSA Toulouse\
+2024-2026 · 358 hours
+:::
+
+::: {.pub-item}
+**Doctoral Teaching Assistant** — INSA Toulouse\
+2021–2024 · 170 hours
+:::
+
+<!-- Teaching materials: uncomment when you publish notebooks or exercises.
+
+## Teaching materials
+
+::: {.project-card}
+### Python notebooks for numerical analysis
+Short description.
+
+[Open on GitHub](https://github.com/MustaphaAllabou/...){.btn .btn-outline-primary .btn-sm}
+:::
+-->
+
+::: {.cta-box}
+Interested in my teaching or in a course collaboration?
+
+[Contact me](contact.qmd){.btn .btn-primary .btn-sm}
+[Research](research.qmd){.btn .btn-outline-primary .btn-sm}
+:::

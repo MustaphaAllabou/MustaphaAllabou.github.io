@@ -1,0 +1,118 @@
+
+
+---
+title: "Home"
+title-block-style: none
+page-layout: full
+description: "Mustapha Allabou – applied mathematician working on reduced-order modeling, scientific machine learning and numerical PDEs at INSA Toulouse."
+---
+
+:::: {.academic-home}
+
+::: {.profile-panel}
+
+![](image/Mustapha_photo.png){.profile-photo fig-alt="Portrait of Mustapha Allabou"}
+
+## Mustapha Allabou {.profile-name .unlisted}
+
+[PhD in Applied Mathematics]{.profile-role}
+
+[Former Teaching and Research Associate\
+INSA Toulouse – IMT]{.profile-affiliation}
+
+[Numerical PDEs]{.tag} [Model Reduction]{.tag} [Scientific ML]{.tag}
+
+::: {.profile-social}
+
+[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/in/mustapha-allabou-786b79201/){aria-label="LinkedIn" title="LinkedIn"}
+[<i class="bi bi-github"></i>](https://github.com/MustaphaAllabou){aria-label="GitHub" title="GitHub"}
+[<span class="orcid-symbol">iD</span>](https://orcid.org/0000-0002-3303-3613){aria-label="ORCID" title="ORCID"}
+[<i class="bi bi-envelope"></i>](mailto:allaboumustapha96@gmail.com){aria-label="Email" title="Email"}
+
+:::
+
+
+:::
+
+::: {.profile-main}
+
+# About me
+
+I am an applied mathematician specializing in **reduced-order modeling,
+scientific machine learning, and numerical simulation of partial differential
+equations**.
+
+I obtained my PhD in Applied Mathematics from INSA Toulouse. My
+doctoral research focused on developing fast and accurate reduced-order models
+for the two-dimensional shallow-water equations, with applications to flood
+and floodplain dynamics.
+
+My work combines Proper Orthogonal Decomposition (POD), non-intrusive reduced
+basis methods and neural-network surrogates, with the aim of bridging
+mathematical modeling, numerical simulation and artificial intelligence to
+build accurate and efficient computational methods.
+
+:::: {.home-columns}
+
+::: {.home-section}
+
+## Research interests
+
+- Reduced-order modeling
+- Non-intrusive model reduction
+- Scientific machine learning
+- Physics-informed and hybrid physics–AI modeling
+- Numerical PDEs
+- Shallow-water equations & flood modeling
+
+[More about my research →](research.qmd)
+
+:::
+
+::: {.home-section}
+
+## Education
+
+**PhD in Applied Mathematics**\
+INSA Toulouse, 2021–2026
+
+**Master's in Applied Mathematics**\
+Université de Pau et des Pays de l'Adour, 2019–2021
+
+[Full biography →](about.qmd)
+
+:::
+
+::::
+
+:::
+
+::::
+
+::: {.home-news}
+
+## News
+
+- [2026]{.news-date} Oral presentation on physics–AI model reduction for flood
+  dynamics at the **Congrès Eau & IA 2026**, Grenoble.
+- [2025]{.news-date} Talk at the AI PhD Day, *AI for Earth and Space Sciences*
+  seminar, Observatoire Midi-Pyrénées, Toulouse.
+- [Sep 2024]{.news-date} Started as **Teaching and Research Associate** at INSA Toulouse.
+
+:::
+
+::: {.home-publication}
+
+## Selected publication
+
+**M. Allabou**, R. Bouclier, P.-A. Garambois & J. Monnier (2024).\
+*Reduction of the shallow water system by an error-aware POD–neural network
+method: Application to floodplain dynamics.*
+**Computer Methods in Applied Mechanics and Engineering**, 428, 117094.
+
+[Read the article](https://doi.org/10.1016/j.cma.2024.117094){.btn .btn-outline-primary .btn-sm}
+[All publications](publications.qmd){.btn .btn-outline-secondary .btn-sm}
+
+:::
+
+
