@@ -267,17 +267,6 @@ Submitted to <em>Advances in Computational Mathematics</em>.</p>
 <h2 data-anchor-id="manuscripts-in-preparation">Manuscripts in preparation</h2>
 <div class="project-card">
 <p><span class="status status-progress">In preparation · 2026</span></p>
-<section id="toward-fast-flood-simulations-via-reduced-order-2d-shallow-water-modeling" class="level3">
-<h3 data-anchor-id="toward-fast-flood-simulations-via-reduced-order-2d-shallow-water-modeling">Toward fast flood simulations via reduced-order 2D shallow water modeling</h3>
-<p><strong>M. Allabou</strong>, L. Pujol, R. Bouclier, P.-A. Garambois and J. Monnier</p>
-<div class="pub-summary">
-<p>A reduced model of urban flooding, trained on high-fidelity 2D shallow-water simulations over the city of Abidjan and tested on the real 2018 flood event. It reproduces water depths and velocities over the whole event with centimetre-level errors, and simulates the 8.3-hour flood in about 11 seconds, roughly 420 times faster than the full model, a step toward real-time flood forecasting and digital twins.</p>
-</div>
-<p><a href="./research.html#main-contributions" class="btn btn-outline-secondary btn-sm">Related research</a></p>
-</section>
-</div>
-<div class="project-card">
-<p><span class="status status-progress">In preparation · 2026</span></p>
 <section id="physics-guided-regime-adaptive-reduced-order-modelling-for-shallow-water-flows-and-flood-uncertainty-quantification" class="level3">
 <h3 data-anchor-id="physics-guided-regime-adaptive-reduced-order-modelling-for-shallow-water-flows-and-flood-uncertainty-quantification">Physics-guided regime-adaptive reduced-order modelling for shallow-water flows and flood uncertainty quantification</h3>
 <p><strong>M. Allabou</strong></p>
@@ -414,7 +403,7 @@ With R. Bouclier, P.-A. Garambois and J. Monnier. Summer School in Numerical Ana
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/MustaphaAllabou\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
