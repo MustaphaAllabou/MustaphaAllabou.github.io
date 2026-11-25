@@ -1,0 +1,118 @@
+==========================================================
+  MON SITE ACADÉMIQUE — AIDE-MÉMOIRE
+  Site en ligne : https://mustaphaallabou.github.io
+  Dépôt GitHub  : https://github.com/MustaphaAllabou/MustaphaAllabou.github.io
+==========================================================
+
+
+----------------------------------------------------------
+1. VOIR LE SITE SUR MON ORDINATEUR (avant de publier)
+----------------------------------------------------------
+
+    cd ~/Desktop/site-academique
+    quarto preview
+
+  -> Le site s'ouvre dans le navigateur et se met à jour
+     automatiquement à chaque enregistrement.
+  -> Pour arrêter : Ctrl + C
+
+
+----------------------------------------------------------
+2. METTRE À JOUR LE SITE EN LIGNE (après une modification)
+----------------------------------------------------------
+
+    cd ~/Desktop/site-academique
+    git add .
+    git commit -m "Update"
+    git push
+    quarto publish gh-pages
+
+  -> En ligne 1 à 2 minutes plus tard.
+  -> Si le changement n'apparaît pas : Cmd + Maj + R dans le navigateur.
+
+  Ce que fait chaque commande :
+    git add .                  prend en compte les fichiers modifiés
+    git commit -m "..."        enregistre une version
+    git push                   sauvegarde les fichiers sources sur GitHub
+    quarto publish gh-pages    régénère le site et le met en ligne
+
+  Conseil : mettre un message parlant, par exemple
+    git commit -m "Add new paper"
+    git commit -m "New CV"
+
+
+----------------------------------------------------------
+3. METTRE À JOUR LE CV (chaque année)
+----------------------------------------------------------
+
+  1. Exporter le nouveau CV en PDF.
+  2. Le renommer exactement : CV_Mustapha_Allabou.pdf
+  3. Remplacer l'ancien fichier dans le dossier : files/
+  4. Lancer les commandes de la partie 2.
+
+  (Optionnel : garder les anciennes versions dans files/archive/)
+
+
+----------------------------------------------------------
+4. VÉRIFIER QU'IL N'Y A PAS D'ERREUR
+----------------------------------------------------------
+
+    quarto render
+
+  -> Doit se terminer par : Output created: _site/index.html
+  -> "WARN ... unable to resolve link" = lien cassé à corriger
+  -> "ERROR" = problème dans un fichier (souvent un ::: mal fermé)
+  -> Ne publie rien : génère seulement le site sur l'ordinateur.
+
+
+----------------------------------------------------------
+5. PROBLÈMES FRÉQUENTS
+----------------------------------------------------------
+
+  Erreur "Bad resource ID" ou "No such file or directory ... .quarto"
+  (cache de Quarto corrompu) :
+
+    Ctrl + C
+    pkill -f quarto
+    rm -rf .quarto _site
+    quarto preview
+
+  Si ça revient souvent : vérifier que le Bureau n'est pas
+  synchronisé par iCloud, ou déplacer le site dans ~/Sites/
+
+  "nothing to commit" :
+  -> rien n'a changé ; vérifier que les fichiers sont enregistrés.
+
+  La photo ou la mise en page est cassée :
+  -> vérifier que styles.css est complet (sections General, Home,
+     Research, Publications, Code, About, Contact, puis Mobile à la fin).
+
+
+----------------------------------------------------------
+6. RÈGLES À RETENIR
+----------------------------------------------------------
+
+  - Le CSS va UNIQUEMENT dans styles.css, jamais dans un fichier .qmd.
+  - Nouveau CSS : le coller AVANT le bloc "Mobile" de styles.css.
+  - Dans _quarto.yml : chaque section (project:, website:, format:)
+    n'apparaît qu'UNE seule fois ; utiliser des espaces, pas de tabulations.
+  - Retour à la ligne dans un texte : finir la ligne par \
+  - Un seul "quarto preview" à la fois.
+  - Tout ce qui est dans le dossier (dont le CV) devient PUBLIC.
+
+
+----------------------------------------------------------
+7. FICHIERS DU SITE
+----------------------------------------------------------
+
+  _quarto.yml        configuration et menu
+  styles.css         apparence de tout le site
+  index.qmd          accueil
+  research.qmd       recherche
+  publications.qmd   publications, conférences, posters
+  code.qmd           code et logiciels
+  teaching.qmd       enseignement et encadrement
+  about.qmd          parcours, thèse, jury
+  contact.qmd        contact et profils
+  image/             photo
+  files/             CV en PDF

@@ -1,5 +1,3 @@
-
-
 ---
 title: "Publications"
 subtitle: "Articles, manuscripts, thesis and scientific communications"
@@ -83,25 +81,6 @@ minutes on a laptop, making probabilistic flood forecasting affordable.
 :::
 
 ## Manuscripts in preparation
-
-::: {.project-card}
-[In preparation · 2026]{.status .status-progress}
-
-### Toward fast flood simulations via reduced-order 2D shallow water modeling
-
-**M. Allabou**, L. Pujol, R. Bouclier, P.-A. Garambois and J. Monnier
-
-::: {.pub-summary}
-A reduced model of urban flooding, trained on high-fidelity 2D shallow-water
-simulations over the city of Abidjan and tested on the real 2018 flood event.
-It reproduces water depths and velocities over the whole event with
-centimetre-level errors, and simulates the 8.3-hour flood in about 11 seconds,
-roughly 420 times faster than the full model, a step toward real-time flood
-forecasting and digital twins.
-:::
-
-[Related research](research.qmd#main-contributions){.btn .btn-outline-secondary .btn-sm}
-:::
 
 ::: {.project-card}
 [In preparation · 2026]{.status .status-progress}
